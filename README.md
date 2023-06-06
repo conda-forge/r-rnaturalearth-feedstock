@@ -1,11 +1,11 @@
-About r-rnaturalearth
-=====================
+About r-rnaturalearth-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rnaturalearth-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropenscilabs/rnaturalearth
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rnaturalearth-feedstock/blob/main/LICENSE.txt)
 
 Summary: Facilitates mapping by making natural earth map data from <http://www.naturalearthdata.com/> more easily available to R users.
 
