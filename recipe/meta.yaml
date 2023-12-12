@@ -1,4 +1,4 @@
-{% set version = "0.3.4" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rnaturalearth_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rnaturalearth/rnaturalearth_{{ version }}.tar.gz
-  sha256: c52cd3afe5ae25a9471643492c718fa2714988e900f2d6731ff74971b6d80fd3
+  sha256: 45028d6ed82dda006019e6fd88d019a810e0f1d21ec2b723cb4e4c35cd476992
 
 build:
   merge_build_host: true  # [win]
