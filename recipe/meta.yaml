@@ -24,17 +24,17 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-cli
     - r-httr >=1.1.0
     - r-jsonlite
     - r-sf >=0.3_4
-    - r-sp >=1.0.15
     - r-terra
   run:
     - r-base
+    - r-cli
     - r-httr >=1.1.0
     - r-jsonlite
     - r-sf >=0.3_4
-    - r-sp >=1.0.15
     - r-terra
 
 test:
